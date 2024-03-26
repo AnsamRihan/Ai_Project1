@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="847.0" prefWidth="1216.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.aiproject.GamePlayer1">
+    <children>
+        <ImageView fx:id="background" fitHeight="860.0" fitWidth="1316.0" layoutX="-96.0" layoutY="-3.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../../../../../../Downloads/chechersBackground2.JPG" />
+            </image>
+        </ImageView>
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="800.0" layoutX="54.0" layoutY="23.0" stroke="BLACK" strokeType="INSIDE" style="-fx-fill: rgba(255,255,255,.6); -fx-arc-height: 60; -fx-arc-width: 60;" width="1100.0" />
+        <Button fx:id="back" ellipsisString="" layoutX="75.0" layoutY="44.0" mnemonicParsing="false" onAction="#SwitchToFirstScene" prefHeight="52.0" prefWidth="49.0" style="-fx-background-color: transperant;" text="Button">
+            <graphic>
+                <ImageView fx:id="backLogo" fitHeight="55.0" fitWidth="59.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../../../../../../../../Downloads/BackIcon.png" />
+                    </image>
+                </ImageView>
+            </graphic>
+        </Button>
+        <GridPane gridLinesVisible="true" layoutX="245.0" layoutY="65.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="728.0" prefWidth="728.0">
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            </rowConstraints>
+            <children>
+                <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#Action0_0" prefHeight="91.0" prefWidth="91.0" style="-fx-background-color: #6a4a3a;">
+                    <graphic>
+                        <ImageView fx:id="img0_0" fitHeight="77.0" fitWidth="102.0" pickOnBounds="true" preserveRatio="true" />
+                    </graphic>
+                </Button>
+                <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#Action0_2" prefHeight="91.0" prefWidth="91.0" style="-fx-background-color: #6a4a3a;" GridPane.rowIndex="2">
+                    <graphic>
+                        <ImageView fx:id="img0_2" fitHeight="77.0" fitWidth="102.0" pickOnBounds="true" preserveRatio="true" />
+                    </graphic>
+                </Button>
+                <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#Action0_4" prefHeight="91.0" prefWidth="91.0" style="-fx-background-color: #6a4a3a;" GridPane.rowIndex="4">
+                    <graphic>
+                        <ImageView fx:id="img0_4" fitHeight="77.0" fitWidth="102.0" pickOnBounds="true" preserveRatio="true" />
+                    </graphic>
+                </Button>
+                <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#Action0_6" prefHeight="91.0" prefWidth="91.0" style="-fx-background-color: #6a4a3a;" GridPane.rowIndex="6">
+                    <graphic>
+                        <ImageView fx:id="img0_6" fitHeight="77.0" fitWidth="102.0" pickOnBounds="true" preserveRatio="true" />
+                    </graphic>
+                </Button>
+                <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#Action1_1" prefHeight="91.0" prefWidth="91.0" style="-fx-background-color: #6a4a3a;" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                    <graphic>
+                        <ImageView fx:id="img1_1" fitHeight="77.0" fitWidth="102.0" pickOnBounds="true" preserveRatio="true" />
+                    </graphic>
+                </Button>
+                <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#Action1_3" prefHeight="91.0" prefWidth="91.0" style="-fx-background-color: #6a4a3a;" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                    <graphic>
+                        <ImageView fx:id="img1_3" fitHeight="77.0" fitWidth="102.0" pickOnBounds="true" preserveRatio="true" />
+                    </graphic>
+                </Button>
+                <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#Action1_5" prefHeight="91.0" prefWidth="91.0" style="-fx-background-color: #6a4a3a;" GridPane.columnIndex="1" GridPane.rowIndex="5">
+                    <graphic>
+                        <ImageView fx:id="img1_5" fitHeight="77.0" fitWidth="102.0" pickOnBounds="true" preserveRatio="true" />
+                    </graphic>
+                </Button>
+                <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#Action1_7" prefHeight="91.0" prefWidth="91.0" style="-fx-background-color: #6a4a3a;" GridPane.columnIndex="1" GridPane.rowIndex="7">
+                    <graphic>
+                        <ImageView fx:id="img1_7" fitHeight="77.0" fitWidth="102.0" pickOnBounds="true" preserveRatio="true" />
+                    </graphic>
+                </Button>
+                <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#Action2_0" prefHeight="91.0" prefWidth="91.0" style="-fx-background-color: #6a4a3a;" GridPane.columnIndex="2">
+                    <graphic>
+                        <ImageView fx:id="img2_0" fitHeight="77.0" fitWidth="102.0" pickOnBounds="true" preserveRatio="true" />
+                    </graphic>
+                </Button>
+                <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#Action2_2" prefHeight="91.0" prefWidth="91.0" style="-fx-background-color: #6a4a3a;" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                    <graphic>
+                        <ImageView fx:id="img2_2" fitHeight="77.0" fitWidth="102.0" pickOnBounds="true" preserveRatio="true" />
+                    </graphic>
+                </Button>
+                <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#Action2_4" prefHeight="91.0" prefWidth="91.0" style="-fx-background-color: #6a4a3a;" GridPane.columnIndex="2" GridPane.rowIndex="4">
+                    <graphic>
+                        <ImageView fx:id="img2_4" fitHeight="77.0" fitWidth="102.0" pickOnBounds="true" preserveRatio="true" />
+                    </graphic>
+                </Button>
+                <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#Action2_6" prefHeight="91.0" prefWidth="91.0" style="-fx-background-color: #6a4a3a;" GridPane.columnIndex="2" GridPane.rowIndex="6">
+                    <graphic>
+                        <ImageView fx:id="img2_6" fitHeight="77.0" fitWidth="102.0" pickOnBounds="true" preserveRatio="true" />
+                    </graphic>
+                </Button>
+                <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#Action3_1" prefHeight="91.0" prefWidth="91.0" style="-fx-background-color: #6a4a3a;" GridPane.columnIndex="3" GridPane.rowIndex="1">
+                    <graphic>
+                        <ImageView fx:id="img3_1" fitHeight="77.0" fitWidth="102.0" pickOnBounds="true" preserveRatio="true" />
+                    </graphic>
+                </Button>
+                <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#Action3_3" prefHeight="91.0" prefWidth="91.0" style="-fx-background-color: #6a4a3a;" GridPane.columnIndex="3" GridPane.rowIndex="3">
+                    <graphic>
+                        <ImageView fx:id="img3_3" fitHeight="77.0" fitWidth="102.0" pickOnBounds="true" preserveRatio="true" />
+                    </graphic>
+                </Button>
+                <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#Action3_5" prefHeight="91.0" prefWidth="91.0" style="-fx-background-color: #6a4a3a;" GridPane.columnIndex="3" GridPane.rowIndex="5">
+                    <graphic>
+                        <ImageView fx:id="img3_5" fitHeight="77.0" fitWidth="102.0" pickOnBounds="true" preserveRatio="true" />
+                    </graphic>
+                </Button>
+                <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#Action3_7" prefHeight="91.0" prefWidth="91.0" style="-fx-background-color: #6a4a3a;" GridPane.columnIndex="3" GridPane.rowIndex="7">
+                    <graphic>
+                        <ImageView fx:id="img3_7" fitHeight="77.0" fitWidth="102.0" pickOnBounds="true" preserveRatio="true" />
+                    </graphic>
+                </Button>
+                <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#Action4_0" prefHeight="91.0" prefWidth="91.0" style="-fx-background-color: #6a4a3a;" GridPane.columnIndex="4">
+                    <graphic>
+                        <ImageView fx:id="img4_0" fitHeight="77.0" fitWidth="102.0" pickOnBounds="true" preserveRatio="true" />
+                    </graphic>
+                </Button>
+                <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#Action4_2" prefHeight="91.0" prefWidth="91.0" style="-fx-background-color: #6a4a3a;" GridPane.columnIndex="4" GridPane.rowIndex="2">
+                    <graphic>
+                        <ImageView fx:id="img4_2" fitHeight="77.0" fitWidth="102.0" pickOnBounds="true" preserveRatio="true" />
+                    </graphic>
+                </Button>
+                <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#Action4_4" prefHeight="91.0" prefWidth="91.0" style="-fx-background-color: #6a4a3a;" GridPane.columnIndex="4" GridPane.rowIndex="4">
+                    <graphic>
+                        <ImageView fx:id="img4_4" fitHeight="77.0" fitWidth="102.0" pickOnBounds="true" preserveRatio="true" />
+                    </graphic>
+                </Button>
+                <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#Action4_6" prefHeight="91.0" prefWidth="91.0" style="-fx-background-color: #6a4a3a;" GridPane.columnIndex="4" GridPane.rowIndex="6">
+                    <graphic>
+                        <ImageView fx:id="img4_6" fitHeight="77.0" fitWidth="102.0" pickOnBounds="true" preserveRatio="true" />
+                    </graphic>
+                </Button>
+                <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#Action5_1" prefHeight="91.0" prefWidth="91.0" style="-fx-background-color: #6a4a3a;" GridPane.columnIndex="5" GridPane.rowIndex="1">
+                    <graphic>
+                        <ImageView fx:id="img5_1" fitHeight="77.0" fitWidth="102.0" pickOnBounds="true" preserveRatio="true" />
+                    </graphic>
+                </Button>
+                <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#Action5_3" prefHeight="91.0" prefWidth="91.0" style="-fx-background-color: #6a4a3a;" GridPane.columnIndex="5" GridPane.rowIndex="3">
+                    <graphic>
+                        <ImageView fx:id="img5_3" fitHeight="77.0" fitWidth="102.0" pickOnBounds="true" preserveRatio="true" />
+                    </graphic>
+                </Button>
+                <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#Action5_5" prefHeight="91.0" prefWidth="91.0" style="-fx-background-color: #6a4a3a;" GridPane.columnIndex="5" GridPane.rowIndex="5">
+                    <graphic>
+                        <ImageView fx:id="img5_5" fitHeight="77.0" fitWidth="102.0" pickOnBounds="true" preserveRatio="true" />
+                    </graphic>
+                </Button>
+                <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#Action5_7" prefHeight="91.0" prefWidth="91.0" style="-fx-background-color: #6a4a3a;" GridPane.columnIndex="5" GridPane.rowIndex="7">
+                    <graphic>
+                        <ImageView fx:id="img5_7" fitHeight="77.0" fitWidth="102.0" pickOnBounds="true" preserveRatio="true" />
+                    </graphic>
+                </Button>
+                <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#Action6_0" prefHeight="91.0" prefWidth="91.0" style="-fx-background-color: #6a4a3a;" GridPane.columnIndex="6">
+                    <graphic>
+                        <ImageView fx:id="img6_0" fitHeight="77.0" fitWidth="102.0" pickOnBounds="true" preserveRatio="true" />
+                    </graphic>
+                </Button>
+                <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#Action6_2" prefHeight="91.0" prefWidth="91.0" style="-fx-background-color: #6a4a3a;" GridPane.columnIndex="6" GridPane.rowIndex="2">
+                    <graphic>
+                        <ImageView fx:id="img6_2" fitHeight="77.0" fitWidth="102.0" pickOnBounds="true" preserveRatio="true" />
+                    </graphic>
+                </Button>
+                <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#Action6_4" prefHeight="91.0" prefWidth="91.0" style="-fx-background-color: #6a4a3a;" GridPane.columnIndex="6" GridPane.rowIndex="4">
+                    <graphic>
+                        <ImageView fx:id="img6_4" fitHeight="77.0" fitWidth="102.0" pickOnBounds="true" preserveRatio="true" />
+                    </graphic>
+                </Button>
+                <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#Action6_6" prefHeight="91.0" prefWidth="91.0" style="-fx-background-color: #6a4a3a;" GridPane.columnIndex="6" GridPane.rowIndex="6">
+                    <graphic>
+                        <ImageView fx:id="img6_6" fitHeight="77.0" fitWidth="102.0" pickOnBounds="true" preserveRatio="true" />
+                    </graphic>
+                </Button>
+                <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#Action7_1" prefHeight="91.0" prefWidth="91.0" style="-fx-background-color: #6a4a3a;" GridPane.columnIndex="7" GridPane.rowIndex="1">
+                    <graphic>
+                        <ImageView fx:id="img7_1" fitHeight="77.0" fitWidth="102.0" pickOnBounds="true" preserveRatio="true" />
+                    </graphic>
+                </Button>
+                <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#Action7_3" prefHeight="91.0" prefWidth="91.0" style="-fx-background-color: #6a4a3a;" GridPane.columnIndex="7" GridPane.rowIndex="3">
+                    <graphic>
+                        <ImageView fx:id="img7_3" fitHeight="77.0" fitWidth="102.0" pickOnBounds="true" preserveRatio="true" />
+                    </graphic>
+                </Button>
+                <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#Action7_5" prefHeight="91.0" prefWidth="91.0" style="-fx-background-color: #6a4a3a;" GridPane.columnIndex="7" GridPane.rowIndex="5">
+                    <graphic>
+                        <ImageView fx:id="img7_5" fitHeight="77.0" fitWidth="102.0" pickOnBounds="true" preserveRatio="true" />
+                    </graphic>
+                </Button>
+                <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#Action7_7" prefHeight="91.0" prefWidth="91.0" style="-fx-background-color: #6a4a3a;" GridPane.columnIndex="7" GridPane.rowIndex="7">
+                    <graphic>
+                        <ImageView fx:id="img7_7" fitHeight="77.0" fitWidth="102.0" pickOnBounds="true" preserveRatio="true" />
+                    </graphic>
+                </Button>
+                <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#Action0_1" prefHeight="91.0" prefWidth="91.0" style="-fx-background-color: #d8cbc4;" GridPane.rowIndex="1">
+                    <graphic>
+                        <ImageView fx:id="img0_1" fitHeight="77.0" fitWidth="102.0" pickOnBounds="true" preserveRatio="true" />
+                    </graphic>
+                </Button>
+                <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#Action0_3" prefHeight="91.0" prefWidth="91.0" style="-fx-background-color: #d8cbc4;" GridPane.rowIndex="3">
+                    <graphic>
+                        <ImageView fx:id="img0_3" fitHeight="77.0" fitWidth="102.0" pickOnBounds="true" preserveRatio="true" />
+                    </graphic>
+                </Button>
+                <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#Action0_5" prefHeight="91.0" prefWidth="91.0" style="-fx-background-color: #d8cbc4;" GridPane.rowIndex="5">
+                    <graphic>
+                        <ImageView fx:id="img0_5" fitHeight="77.0" fitWidth="102.0" pickOnBounds="true" preserveRatio="true" />
+                    </graphic>
+                </Button>
+                <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#Action0_7" prefHeight="91.0" prefWidth="91.0" style="-fx-background-color: #d8cbc4;" GridPane.rowIndex="7">
+                    <graphic>
+                        <ImageView fx:id="img0_7" fitHeight="77.0" fitWidth="102.0" pickOnBounds="true" preserveRatio="true" />
+                    </graphic>
+                </Button>
+                <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#Action1_0" prefHeight="91.0" prefWidth="91.0" style="-fx-background-color: #d8cbc4;" GridPane.columnIndex="1">
+                    <graphic>
+                        <ImageView fx:id="img1_0" fitHeight="77.0" fitWidth="102.0" pickOnBounds="true" preserveRatio="true" />
+                    </graphic>
+                </Button>
+                <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#Action1_2" prefHeight="91.0" prefWidth="91.0" style="-fx-background-color: #d8cbc4;" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                    <graphic>
+                        <ImageView fx:id="img1_2" fitHeight="77.0" fitWidth="102.0" pickOnBounds="true" preserveRatio="true" />
+                    </graphic>
+                </Button>
+                <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#Action1_4" prefHeight="91.0" prefWidth="91.0" style="-fx-background-color: #d8cbc4;" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                    <graphic>
+                        <ImageView fx:id="img1_4" fitHeight="77.0" fitWidth="102.0" pickOnBounds="true" preserveRatio="true" />
+                    </graphic>
+                </Button>
+                <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#Action1_6" prefHeight="91.0" prefWidth="91.0" style="-fx-background-color: #d8cbc4;" GridPane.columnIndex="1" GridPane.rowIndex="6">
+                    <graphic>
+                        <ImageView fx:id="img1_6" fitHeight="77.0" fitWidth="102.0" pickOnBounds="true" preserveRatio="true" />
+                    </graphic>
+                </Button>
+                <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#Action2_1" prefHeight="91.0" prefWidth="91.0" style="-fx-background-color: #d8cbc4;" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                    <graphic>
+                        <ImageView fx:id="img2_1" fitHeight="77.0" fitWidth="102.0" pickOnBounds="true" preserveRatio="true" />
+                    </graphic>
+                </Button>
+                <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#Action2_3" prefHeight="91.0" prefWidth="91.0" style="-fx-background-color: #d8cbc4;" GridPane.columnIndex="2" GridPane.rowIndex="3">
+                    <graphic>
+                        <ImageView fx:id="img2_3" fitHeight="77.0" fitWidth="102.0" pickOnBounds="true" preserveRatio="true" />
+                    </graphic>
+                </Button>
+                <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#Action2_5" prefHeight="91.0" prefWidth="91.0" style="-fx-background-color: #d8cbc4;" GridPane.columnIndex="2" GridPane.rowIndex="5">
+                    <graphic>
+                        <ImageView fx:id="img2_5" fitHeight="77.0" fitWidth="102.0" pickOnBounds="true" preserveRatio="true" />
+                    </graphic>
+                </Button>
+                <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#Action2_7" prefHeight="91.0" prefWidth="91.0" style="-fx-background-color: #d8cbc4;" GridPane.columnIndex="2" GridPane.rowIndex="7">
+                    <graphic>
+                        <ImageView fx:id="img2_7" fitHeight="77.0" fitWidth="102.0" pickOnBounds="true" preserveRatio="true" />
+                    </graphic>
+                </Button>
+                <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#Action3_0" prefHeight="91.0" prefWidth="91.0" style="-fx-background-color: #d8cbc4;" GridPane.columnIndex="3">
+                    <graphic>
+                        <ImageView fx:id="img3_0" fitHeight="77.0" fitWidth="102.0" pickOnBounds="true" preserveRatio="true" />
+                    </graphic>
+                </Button>
+                <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#Action3_2" prefHeight="91.0" prefWidth="91.0" style="-fx-background-color: #d8cbc4;" GridPane.columnIndex="3" GridPane.rowIndex="2">
+                    <graphic>
+                        <ImageView fx:id="img3_2" fitHeight="77.0" fitWidth="102.0" pickOnBounds="true" preserveRatio="true" />
+                    </graphic>
+                </Button>
+                <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#Action3_4" prefHeight="91.0" prefWidth="91.0" style="-fx-background-color: #d8cbc4;" GridPane.columnIndex="3" GridPane.rowIndex="4">
+                    <graphic>
+                        <ImageView fx:id="img3_4" fitHeight="77.0" fitWidth="102.0" pickOnBounds="true" preserveRatio="true" />
+                    </graphic>
+                </Button>
+                <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#Action3_6" prefHeight="91.0" prefWidth="91.0" style="-fx-background-color: #d8cbc4;" GridPane.columnIndex="3" GridPane.rowIndex="6">
+                    <graphic>
+                        <ImageView fx:id="img3_6" fitHeight="77.0" fitWidth="102.0" pickOnBounds="true" preserveRatio="true" />
+                    </graphic>
+                </Button>
+                <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#Action4_1" prefHeight="91.0" prefWidth="91.0" style="-fx-background-color: #d8cbc4;" GridPane.columnIndex="4" GridPane.rowIndex="1">
+                    <graphic>
+                        <ImageView fx:id="img4_1" fitHeight="77.0" fitWidth="102.0" pickOnBounds="true" preserveRatio="true" />
+                    </graphic>
+                </Button>
+                <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#Action4_3" prefHeight="91.0" prefWidth="91.0" style="-fx-background-color: #d8cbc4;" GridPane.columnIndex="4" GridPane.rowIndex="3">
+                    <graphic>
+                        <ImageView fx:id="img4_3" fitHeight="77.0" fitWidth="102.0" pickOnBounds="true" preserveRatio="true" />
+                    </graphic>
+                </Button>
+                <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#Action4_5" prefHeight="91.0" prefWidth="91.0" style="-fx-background-color: #d8cbc4;" GridPane.columnIndex="4" GridPane.rowIndex="5">
+                    <graphic>
+                        <ImageView fx:id="img4_5" fitHeight="77.0" fitWidth="102.0" pickOnBounds="true" preserveRatio="true" />
+                    </graphic>
+                </Button>
+                <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#Action4_7" prefHeight="91.0" prefWidth="91.0" style="-fx-background-color: #d8cbc4;" GridPane.columnIndex="4" GridPane.rowIndex="7">
+                    <graphic>
+                        <ImageView fx:id="img4_7" fitHeight="77.0" fitWidth="102.0" pickOnBounds="true" preserveRatio="true" />
+                    </graphic>
+                </Button>
+                <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#Action5_0" prefHeight="91.0" prefWidth="91.0" style="-fx-background-color: #d8cbc4;" GridPane.columnIndex="5">
+                    <graphic>
+                        <ImageView fx:id="img5_0" fitHeight="77.0" fitWidth="102.0" pickOnBounds="true" preserveRatio="true" />
+                    </graphic>
+                </Button>
+                <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#Action5_2" prefHeight="91.0" prefWidth="91.0" style="-fx-background-color: #d8cbc4;" GridPane.columnIndex="5" GridPane.rowIndex="2">
+                    <graphic>
+                        <ImageView fx:id="img5_2" fitHeight="77.0" fitWidth="102.0" pickOnBounds="true" preserveRatio="true" />
+                    </graphic>
+                </Button>
+                <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#Action5_4" prefHeight="91.0" prefWidth="91.0" style="-fx-background-color: #d8cbc4;" GridPane.columnIndex="5" GridPane.rowIndex="4">
+                    <graphic>
+                        <ImageView fx:id="img5_4" fitHeight="77.0" fitWidth="102.0" pickOnBounds="true" preserveRatio="true" />
+                    </graphic>
+                </Button>
+                <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#Action5_6" prefHeight="91.0" prefWidth="91.0" style="-fx-background-color: #d8cbc4;" GridPane.columnIndex="5" GridPane.rowIndex="6">
+                    <graphic>
+                        <ImageView fx:id="img5_6" fitHeight="77.0" fitWidth="102.0" pickOnBounds="true" preserveRatio="true" />
+                    </graphic>
+                </Button>
+                <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#Action6_1" prefHeight="91.0" prefWidth="91.0" style="-fx-background-color: #d8cbc4;" GridPane.columnIndex="6" GridPane.rowIndex="1">
+                    <graphic>
+                        <ImageView fx:id="img6_1" fitHeight="77.0" fitWidth="102.0" pickOnBounds="true" preserveRatio="true" />
+                    </graphic>
+                </Button>
+                <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#Action6_3" prefHeight="91.0" prefWidth="91.0" style="-fx-background-color: #d8cbc4;" GridPane.columnIndex="6" GridPane.rowIndex="3">
+                    <graphic>
+                        <ImageView fx:id="img6_3" fitHeight="77.0" fitWidth="102.0" pickOnBounds="true" preserveRatio="true" />
+                    </graphic>
+                </Button>
+                <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#Action6_5" prefHeight="91.0" prefWidth="91.0" style="-fx-background-color: #d8cbc4;" GridPane.columnIndex="6" GridPane.rowIndex="5">
+                    <graphic>
+                        <ImageView fx:id="img6_5" fitHeight="77.0" fitWidth="102.0" pickOnBounds="true" preserveRatio="true" />
+                    </graphic>
+                </Button>
+                <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#Action6_7" prefHeight="91.0" prefWidth="91.0" style="-fx-background-color: #d8cbc4;" GridPane.columnIndex="6" GridPane.rowIndex="7">
+                    <graphic>
+                        <ImageView fx:id="img6_7" fitHeight="77.0" fitWidth="102.0" pickOnBounds="true" preserveRatio="true" />
+                    </graphic>
+                </Button>
+                <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#Action7_0" prefHeight="91.0" prefWidth="91.0" style="-fx-background-color: #d8cbc4;" GridPane.columnIndex="7">
+                    <graphic>
+                        <ImageView fx:id="img7_0" fitHeight="77.0" fitWidth="102.0" pickOnBounds="true" preserveRatio="true" />
+                    </graphic>
+                </Button>
+                <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#Action7_2" prefHeight="91.0" prefWidth="91.0" style="-fx-background-color: #d8cbc4;" GridPane.columnIndex="7" GridPane.rowIndex="2">
+                    <graphic>
+                        <ImageView fx:id="img7_2" fitHeight="77.0" fitWidth="102.0" pickOnBounds="true" preserveRatio="true" />
+                    </graphic>
+                </Button>
+                <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#Action7_4" prefHeight="91.0" prefWidth="91.0" style="-fx-background-color: #d8cbc4;" GridPane.columnIndex="7" GridPane.rowIndex="4">
+                    <graphic>
+                        <ImageView fx:id="img7_4" fitHeight="77.0" fitWidth="102.0" pickOnBounds="true" preserveRatio="true" />
+                    </graphic>
+                </Button>
+                <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#Action7_6" prefHeight="91.0" prefWidth="91.0" style="-fx-background-color: #d8cbc4;" GridPane.columnIndex="7" GridPane.rowIndex="6">
+                    <graphic>
+                        <ImageView fx:id="img7_6" fitHeight="77.0" fitWidth="102.0" pickOnBounds="true" preserveRatio="true" />
+                    </graphic>
+                </Button>
+            </children>
+            <opaqueInsets>
+                <Insets />
+            </opaqueInsets>
+        </GridPane>
+        <Label layoutX="75.0" layoutY="123.0" text="Player:" textFill="#6a4a3a">
+            <font>
+                <Font name="Century Gothic Bold" size="37.0" />
+            </font>
+        </Label>
+        <Label fx:id="player" layoutX="125.0" layoutY="182.0" text="1" textFill="#6a4a3a">
+            <font>
+                <Font name="Century Gothic Bold" size="37.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>
